@@ -1,13 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './Panel.css';
+import './Cards.css';
+import './Navbar.css';
+import './Footer.css';
+import './App.css'
 import App from './App';
+import Navbar from './Navbar';
+import Panel from './Panel';
+import Cards from './Cards';
+import Footer from './Footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Navbar/>
+    <Panel/>
+    <Cards/>
+    <App/>
+    <Footer/>
   </React.StrictMode>
 );
 
